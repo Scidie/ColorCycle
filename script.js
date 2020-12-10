@@ -6,11 +6,7 @@ let preview = document.querySelector(".preview-element")
 let isActive = false;
 
 function toggleButton() {
-    if(isActive === true) {
-        startStopButton.textContent = "stop";
-    } else {
-        startStopButton.textContent = "start";
-    }
+    isActive === true ? startStopButton.textContent = "stop" : startStopButton.textContent = "start";
 }
 
 function incrementColors() {
