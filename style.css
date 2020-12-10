@@ -1,0 +1,83 @@
+.global-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.control-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs-first-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    width: 100px;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.input-color-value {
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+    /* background-color: rgb(122, 83, 83); */
+}
+
+.inputs-second-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-increment-value {
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.start-stop-button {
+    width: 50px;
+    height: 50px;
+}
+
+.reset-button {
+    width: 50px;
+    height: 50px;
+}
+
+.preview-section-container {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rgb-value {
+
+}
+
+.preview-element{
+    width: 200px;
+    height: 200px;
+}
+
